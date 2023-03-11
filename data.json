@@ -1,0 +1,113 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "account_balance",
+      "patterns": [
+        "what's my account balance?",
+        "can you tell me how much money I have in my account?",
+        "how much money do I have in my account?"
+      ],
+      "responses": [
+        "To check your account balance, please log in to your account online or through our mobile app. You can also check your balance at an ATM or by calling our automated phone system"
+      ]
+    },
+    {
+      "tag": "transaction_history",
+      "patterns": [
+        "can you show me my transaction history?",
+        "what are my recent transactions?",
+        "when was the last time I made a withdrawal?"
+      ],
+      "responses": [
+        "Sure! You can view your transaction history by logging in to your account online or through our mobile app. You can also request a copy of your transaction history by visiting one of our branches or by calling our customer service hotline."
+      ]
+    },
+    {
+      "tag": "transfer_money",
+      "patterns": [
+        "can I transfer money to another account?",
+        "how do I transfer money to another account?",
+        "what's the process to transfer money to another account?"
+      ],
+      "responses": [
+        "Yes, you can transfer money to another account through our online banking or mobile app. Simply log in to your account and follow the instructions on the screen."
+      ]
+    },
+    {
+      "tag": "report_lost_card",
+      "patterns": [
+        "I lost my card",
+        "my card got stolen",
+        "what should I do if I lost my card?"
+      ],
+      "responses": [
+        "I'm sorry to hear that. To report a lost or stolen card, please call our customer service hotline immediately. We will cancel your old card and issue you a new one."
+      ]
+    },
+    {
+      "tag": "customer_service",
+      "patterns": [
+        "I need to talk to customer service",
+        "can I speak to a customer service representative?",
+        "how can I contact customer service?"
+      ],
+      "responses": [
+        "Sure, we're here to help! You can reach our customer service team by phone, email, or live chat. Our representatives are available 24/7 to assist you with any questions or concerns."
+      ]
+    },
+    {
+      "tag": "card_activation",
+      "patterns": [
+        "how do I activate my new card?",
+        "my new card arrived, what's the activation process?",
+        "what do I need to do to activate my new card?"
+      ],
+      "responses": [
+        "To activate your new card, please log in to your account online or through our mobile app. You can also activate your card by calling our automated phone system. If you're having trouble activating your card, please contact our customer service team for assistance."
+      ]
+    }
+  ]
+}
